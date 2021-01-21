@@ -1,0 +1,69 @@
+﻿body,
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('https://mcdn.wallpapersafari.com/medium/68/93/hSEvPY.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 0%;
+    padding-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    color: #ffffff;
+}
+
+.main {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container1 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-align: center;
+    border: solid;
+    padding: 5% 0%;
+    background-color: #2863609f;
+    /*whatever width you want*/
+}
+
+.container2 h3 {
+    font-size: 30px;
+    padding-top: 1%;
+}
+
+.container2 p {
+    font-size: 20px;
+    padding: 1% 0%;
+}
+
+#button {
+    background-color: #0b2c1e;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
